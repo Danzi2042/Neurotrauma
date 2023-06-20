@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.neurotrauma;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -21,7 +21,6 @@ public class heart extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_heart);
-
         button = findViewById(R.id.button);
         button.setOnClickListener(listener);
 

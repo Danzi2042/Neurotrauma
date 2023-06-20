@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.neurotrauma;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,8 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ThirdActivity extends AppCompatActivity {
-
+public class FourthActivity extends AppCompatActivity {
 
     private Button button,button2,button3,button4,button5,button6,button7,button8;
 
@@ -17,9 +16,11 @@ public class ThirdActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_third);
+        setContentView(R.layout.activity_fourth);
 
+        // присваивание id полям
         button = findViewById(R.id.button);
+        // обработка нажатия кнопки
         button.setOnClickListener(listener);
 
         // присваивание id полям
@@ -41,8 +42,8 @@ public class ThirdActivity extends AppCompatActivity {
         button5 = findViewById(R.id.button5);
         // обработка нажатия кнопки
         button5.setOnClickListener(listener5);
-        // присваивание id полям
 
+        // присваивание id полям
         button6 = findViewById(R.id.button6);
         // обработка нажатия кнопки
         button6.setOnClickListener(listener6);
@@ -52,11 +53,10 @@ public class ThirdActivity extends AppCompatActivity {
         // обработка нажатия кнопки
         button7.setOnClickListener(listener7);
 
-        // присваивание id полям
         button8 = findViewById(R.id.button8);
-
         // обработка нажатия кнопки
         button8.setOnClickListener(listener8);
+
     }
 
 
@@ -67,7 +67,7 @@ public class ThirdActivity extends AppCompatActivity {
         public void onClick(View view) {
 
             // переключение на новую активность
-            Intent intent = new Intent(getApplicationContext(), OperationInfo.class);
+            Intent intent = new Intent(getApplicationContext(), lungs.class);
             startActivity(intent);
 
         }
@@ -80,7 +80,7 @@ public class ThirdActivity extends AppCompatActivity {
         public void onClick(View view) {
 
             // переключение на новую активность
-            Intent intent = new Intent(getApplicationContext(), heart.class);
+            Intent intent = new Intent(getApplicationContext(), blood.class);
             startActivity(intent);
 
         }
@@ -90,7 +90,7 @@ public class ThirdActivity extends AppCompatActivity {
         public void onClick(View view) {
 
             // переключение на новую активность
-            Intent intent = new Intent(getApplicationContext(), LimbsAndTorso.class);
+            Intent intent = new Intent(getApplicationContext(),cyberneticsAndEyes.class);
             startActivity(intent);
 
         }
@@ -100,7 +100,7 @@ public class ThirdActivity extends AppCompatActivity {
         public void onClick(View view) {
 
             // переключение на новую активность
-            Intent intent = new Intent(getApplicationContext(), allTrauma.class);
+            Intent intent = new Intent(getApplicationContext(), bones.class);
             startActivity(intent);
 
         }
@@ -110,22 +110,35 @@ public class ThirdActivity extends AppCompatActivity {
         public void onClick(View view) {
 
             // переключение на новую активность
-            Intent intent = new Intent(getApplicationContext(), brain.class);
+            Intent intent = new Intent(getApplicationContext(), itemForSurgery.class);
             startActivity(intent);
 
         }
     };
+
     private View.OnClickListener listener6 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
 
             // переключение на новую активность
-            Intent intent = new Intent(getApplicationContext(), liverAndKidneys.class);
+            Intent intent = new Intent(getApplicationContext(), firstAidItem.class);
             startActivity(intent);
 
         }
     };
+
     private View.OnClickListener listener7 = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+
+            // переключение на новую активность
+            Intent intent = new Intent(getApplicationContext(), ThirdActivity.class);
+            startActivity(intent);
+
+        }
+    };
+
+    private View.OnClickListener listener8 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
 
@@ -135,14 +148,7 @@ public class ThirdActivity extends AppCompatActivity {
 
         }
     };
-    private View.OnClickListener listener8 = new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
 
-            // переключение на новую активность
-            Intent intent = new Intent(getApplicationContext(), FourthActivity.class);
-            startActivity(intent);
 
-        }
-    };
+
 }
