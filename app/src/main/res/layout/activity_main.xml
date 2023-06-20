@@ -24,7 +24,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="220dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:backgroundTint="#000000"
         android:text="Начать погружение"
         android:textColor="#FFD485"
@@ -39,7 +39,7 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="220dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:backgroundTint="#000000"
         android:text="Первоисточник"
         android:textColor="#FFD485"

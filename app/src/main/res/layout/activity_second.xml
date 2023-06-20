@@ -42,7 +42,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="150dp"
-        android:layout_height="45dp"
+        android:layout_height="55dp"
         android:backgroundTint="#000000"
         android:textColor="#FFD485"
         android:layout_marginBottom="18dp"

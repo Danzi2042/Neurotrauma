@@ -13,7 +13,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="25dp"
-        android:text="Хирургические процедуры"
+        android:text="Информация об операциях"
         android:background="@drawable/shape_text"
         android:textSize="23sp"
         android:textStyle="bold"
@@ -37,7 +37,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="150dp"
-        android:layout_height="45dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="18dp"
         android:backgroundTint="#000000"
         android:textColor="#FFD485"
