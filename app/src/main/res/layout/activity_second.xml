@@ -30,7 +30,7 @@
         android:autoLink="web"
         android:linksClickable="true"
         android:gravity="center"
-        android:text="вся данная информация была получена в ходе опытов и описания предметов в самой игре все изображения были взяты из файлов модификаций https://steamcommunity.com/sharedfiles/filedetails/?id=2788543375 , https://steamcommunity.com/sharedfiles/filedetails/?id=2776270649 , https://steamcommunity.com/sharedfiles/filedetails/?id=2809712173"
+        android:text="вся данная информация была получена в ходе опытов и описания предметов в самой игре, логотип был сгенерирован нейросетью Kandinsky2.1 а все изображения были взяты из файлов модификаций https://steamcommunity.com/sharedfiles/filedetails/?id=2788543375 , https://steamcommunity.com/sharedfiles/filedetails/?id=2776270649 , https://steamcommunity.com/sharedfiles/filedetails/?id=2809712173"
         android:textColor="#FFD485"
         android:textSize="20dp"
         android:background="@drawable/shape_list"
