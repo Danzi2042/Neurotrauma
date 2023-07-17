@@ -12,7 +12,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="25dp"
-        android:text="блок печени и почки"
+        android:text="блок печени и почек"
         android:background="@drawable/shape_text"
         android:textSize="23sp"
         android:textStyle="bold"
